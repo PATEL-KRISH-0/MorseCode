@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MorseCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <h1>MorseCode</h1>
+        <div class="info">
+            <div class="RorW">
+                <span>Right = <span class="R">0</span></span>
+                <span>Wrong = <span class="W">0</span></span>
+            </div>
+            <span>Enter the morseCode for : </span>
+            <span class="char"> ? </span>
+            <span class="info">
+                <span>
+                    use spacebar to enter code
+                </span>
+                <span>
+                    or
+                </span>
+                <span>
+                    Enter code in box and submit
+                </span>
+            </span>
+        </div>
+
+        <input type="text" placeholder="Enter here" class="input">
+        <!-- <input type="text" pattern="[-.]+" placeholder="Enter here" class="input"> -->
+
+        <span class="spens hint">
+            <span class="spens-inputs">
+                <span>??????...... &nbsp;&nbsp;</span>
+                <a href="#" class="hintA">Show Hint</a>
+            </span>
+            <span class="realAnsOfHint"></span>
+        </span>
+        <span class="spens ans">
+            <span class="spens-inputs">
+                <span>??????...... &nbsp;&nbsp;</span>
+                <a href="#" class="ansA">Show Code</a>
+            </span>
+            <span class="realAnsOfAns"></span>
+        </span>
+
+        <div class="btns">
+            <a class="btn submit" href="#">Submit</a>
+            <a class="btn next" href="#">Next</a>
+        </div>
+
+        <div class="output">
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
